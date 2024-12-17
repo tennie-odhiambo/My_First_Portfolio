@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+  background-color: #f2f1f1;
+  border: 1px solid #f0f0ec;
+
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #f3f5f4;
+  border: 1px solid #eeebeb;
+}
+
+ .Logo {
+  font-size: 2rem;
+  color: #f30707;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+header {
+  background-color: rgb(6, 223, 223);
+  color: rgb(227, 18, 18);
+  padding: 20px;
+}
